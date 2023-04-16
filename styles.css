@@ -1,18 +1,18 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
 
 #menu {
-    background-color:#be89cb;
+    background-color: #be89cb;
 }
 
 #menu ul {
     display: flex;
-    padding: 30px;
+    padding: 45px 33px 45px 0;
     justify-content: right;
     align-items: flex-end;
-    gap: 150px;
+    gap: 40px;
 }
 
 #menu ul li {
@@ -21,8 +21,208 @@
 
 #menu ul li a {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700; 
+    font-weight: 700;
     font-size: 18px;
     color: #ffffff;
     text-decoration: none;
+}
+
+#perfil {
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 100px 0px;
+}
+
+#perfil img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
+
+}
+
+#perfil h1 {
+    color: #ff4dbc;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    margin-top: 26px;
+}
+
+#perfil h2 {
+    color: #c5c0c0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#perfil p {
+    margin-top: 21px;
+    color: #000;
+    font-family: 'ABeeZee', sans-serif;
+    width: 490px;
+
+}
+
+#formacao {
+    width: 100%;
+    background: #E5E5E5;
+    padding: 61px 0 61px 0;
+}
+
+#formacao h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FF4DBC;
+    margin-left: 137px;
+    margin-bottom: 50px;
+}
+
+.formacao-conteudo {
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 53px;
+}
+
+.formacao-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formacao-card h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.formacao-card a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2F80ED;
+}
+
+.formacao-card p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+}
+
+
+#portfolio {
+    width: 100%;
+    background: #EDEAEA;
+    ;
+    padding: 61px 0 61px 0;
+}
+
+#portfolio h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FF4DBC;
+    margin-left: 137px;
+    margin-bottom: 50px;
+}
+
+.calculadora {
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 53px;
+}
+
+.calculadora-link {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.calculadora-link h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #661E4B;
+}
+
+.calculadora-link a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2F80ED;
+}
+
+.calculadora-link p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.calculadora-link h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#contato {
+    background-color: #be89cb;
+    width: 100%;
+    padding: 61px 0 61px 0;
+}
+
+#contato ul {
+    display: flex;
+    flex-direction: column;
+    gap: 18.5px;
+    list-style: none;
+}
+
+#contato ul li {
+    display: flex;
+    align-items: center;
+    gap: 13.5px;
+}
+
+#contato ul li i {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#contato ul li a {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#contato ul li a.text-decoration {
+    text-decoration-line: underline;
 }
